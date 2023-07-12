@@ -1,3 +1,4 @@
+import './index.css'
 import home from './assets/Rectangle.jpg'
 import play from './assets/Group 1.jpg'
 import pointer from './assets/address.jpg'
@@ -8,7 +9,6 @@ import tick from './assets/Vector.jpg'
 import places from './assets/Rectangle04.jpg'
 import Estate from './assets/Rectangle 4 (1).jpg'
 import Build from './assets/Rectangle5.jpg'
-import './App.css'
 
 
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    
+      <h1 className="text-3xl">Hello</h1>
       <div className='md:flex py-5   items-center justify-evenly '>
         <div className='flex justify-between'>
         <div > 
